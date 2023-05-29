@@ -1,0 +1,65 @@
+.rocketsCont {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  padding: 2rem 4rem;
+  margin: 0;
+}
+
+.rocket {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.rocketImg {
+  min-width: 16rem;
+  min-height: 13rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.rocketInf {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rocketName {
+  padding: 0;
+  margin: 0;
+}
+
+.rocketDesc {
+  line-height: 1.4rem;
+}
+
+.rocketBtn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: #3e6bff;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.rocketBtn:active {
+  background-color: #2e4fbc;
+}
+
+.reservedSpan {
+  background-color: rgb(25, 156, 179);
+  color: white;
+  padding: 0 0.3rem 0.2rem;
+  margin: 0 0.3rem 0 0;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.reserved {
+  background-color: rgb(255, 255, 255);
+  color: grey;
+  border: 2px solid grey;
+}
